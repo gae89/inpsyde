@@ -16,9 +16,9 @@ class WPNonceTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(1, $nonceField);
     }
 
-    public function test_wp_nonce_url_oop($actionurl='http://site.ru/url') {
+    public function test_wp_nonce_url_oop($actionurl='https://i.imgur.com/UgKXsjj.png') {
         $WPNonce = new WPNonce();
-        $nonceUrl = $WPNonce -> wp_nonce_url_oop($actionurl='http://site.ru/url');
+        $nonceUrl = $WPNonce -> wp_nonce_url_oop($actionurl='https://i.imgur.com/UgKXsjj.png');
         $this->assertEquals(1, $nonceUrl);
     }
 
@@ -62,7 +62,7 @@ function wp_nonce_field() {
     return 1;
 }
 
-function wp_nonce_url($actionurl='http://site.ru/url') {
+function wp_nonce_url($actionurl='https://i.imgur.com/UgKXsjj.png') {
     return 1;
 }
 
