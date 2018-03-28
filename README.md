@@ -39,7 +39,7 @@ $checkAjaxRefer = $WPNonce -> check_ajax_referer_oop();
 
 **Test either if the current request carries a valid nonce, or if the current request was referred from an administration screen**
 ```php
-$WPNonce = new \gae89\inpsydee();
+$WPNonce = new \gae89\inpsyde();
 $checkAdminRefer = $WPNonce -> check_admin_referer_oop();
 ```
 
