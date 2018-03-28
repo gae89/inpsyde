@@ -11,7 +11,7 @@ require __DIR__ . '/vendor/autoload.php';
 $WPNonce = new \gae89\inpsyde();
 $nonceCreate = $WPNonce -> wp_create_nonce_oop();
 ```
-Example:
+Example
 ```php
 <?php
 $nonce = wp_create_nonce( 'say-hello' );
@@ -23,6 +23,16 @@ $nonce = wp_create_nonce( 'say-hello' );
 ```php
 $WPNonce = new \gae89\inpsyde();
 $nonceVerify = $WPNonce -> wp_verify_nonce_oop();
+```
+Example
+```php
+<?php
+$nonce = $_GET['_wpnonce'];
+if ( wp_verify_nonce( $nonce, 'say-hello' ) ){
+    echo 'Hellooo!!!';
+} else {
+    die( 'Good bye!' );
+}
 ```
 
 **Add a nonce to a URL**
