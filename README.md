@@ -1,14 +1,13 @@
 # Composer package for Inpsyde Gmbh
 
-##Usage
 
-add to your functions.php:
+###Add to your functions.php:
 ```php
 Autoload files using Composer autoload
 require __DIR__ . '/vendor/autoload.php';
 ```
 
-###Create a nonce
+Create a nonce
 ```php
 $WPNonce = new \gae89\inpsyde();
 $nonceCreate = $WPNonce -> wp_create_nonce_oop();
