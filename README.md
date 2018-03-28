@@ -1,4 +1,4 @@
-# Composer package for Inpsyde
+# Composer package for Inpsyde Gmbh
 
 ##Usage
 
