@@ -1,6 +1,6 @@
 {
-  "name": "gae89/wp-nonces",
-  "description": "a composer package which serves the functionality working with WordPress Nonces",
+  "name": "gae89/inpsyde",
+  "description": "A composer package which serves the functionality working with WordPress Nonces",
   "license": "proprietary",
   "authors": [
     {
