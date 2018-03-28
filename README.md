@@ -18,11 +18,15 @@ $nonceCreate = $WPNonce -> wp_create_nonce_oop();
 ```php
 $WPNonce = new \gae89\inpsyde();
 $nonceVerify = $WPNonce -> wp_verify_nonce_oop();
-###Add a nonce to a URL
 ```
 
+###Add a nonce to a URL
+```php
 $WPNonce = new \gae89\inpsyde();
 $nonceUrl = $WPNonce -> wp_nonce_url_oop();
+```
+
+
 ###Add a nonce to a form
 
 
