@@ -9,20 +9,17 @@ require __DIR__ . '/vendor/autoload.php';
 ```
 
 ###Create a nonce
-
+```php
 $WPNonce = new \gae89\inpsyde();
 $nonceCreate = $WPNonce -> wp_create_nonce_oop();
-
-For example:
-
-<a href='myplugin.php?do_something=some_action&_wpnonce=<?php echo $nonceCreate; ?>'>Do some action</a>
+```
 
 ###Verify a nonce
-
+```php
 $WPNonce = new \gae89\inpsyde();
 $nonceVerify = $WPNonce -> wp_verify_nonce_oop();
 ###Add a nonce to a URL
-
+```
 
 $WPNonce = new \gae89\inpsyde();
 $nonceUrl = $WPNonce -> wp_nonce_url_oop();
