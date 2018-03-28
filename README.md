@@ -3,10 +3,10 @@
 ##Usage
 
 add to your functions.php:
-
+```php
 Autoload files using Composer autoload
 require __DIR__ . '/vendor/autoload.php';
-
+```
 
 ###Create a nonce
 
