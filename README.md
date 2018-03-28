@@ -1,9 +1,8 @@
 [![](https://i.imgur.com/UgKXsjj.png)](https://i.imgur.com/UgKXsjj.png)
 
 
-**Add to your functions.php**
+**Autoload files using Composer autoload**
 ```php
-Autoload files using Composer autoload
 require __DIR__ . '/vendor/autoload.php';
 ```
 
