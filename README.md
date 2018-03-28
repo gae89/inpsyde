@@ -1,4 +1,4 @@
-# Composer package for Inpsyde Gmbh
+[![](https://i.imgur.com/UgKXsjj.png)](https://i.imgur.com/UgKXsjj.png)
 
 
 Add to your functions.php
