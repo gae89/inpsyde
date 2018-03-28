@@ -1,6 +1,5 @@
 [![](https://i.imgur.com/UgKXsjj.png)](https://i.imgur.com/UgKXsjj.png)
 
-<a href='myplugin.php?_wpnonce={$nonce}'>Save Something</a>
 
 **Autoload files using Composer autoload**
 ```php
